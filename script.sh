@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Define thresholds
-CPU_THRESHOLD=80
-MEM_THRESHOLD=80
+CPU_THRESHOLD=60
+MEM_THRESHOLD=60
 
 # Email address to send notifications
-EMAIL="jglaudias@example.com"
+EMAIL="name@example.com"
 
 # Function to check CPU usage
 check_cpu_usage() {
